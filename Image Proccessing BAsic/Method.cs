@@ -49,8 +49,8 @@ namespace Image_Proccessing_BAsic
                     // For color values
 
                     r1 = 255 - r1;
-                    g1 = 255 - g1;
-                    b1 = 255 - b1;
+                    g1 = 255;
+                    b1 = 255;
 
                     b.SetPixel(i, j, Color.FromArgb(a, r1, g1, b1));   // Setting new colour for color processed image
                 }
@@ -86,8 +86,8 @@ namespace Image_Proccessing_BAsic
                     // For color values
 
                     r1 = 255 - r1;
-                    g1 = 255 - g1;
-                    b1 = 255 - b1;
+                    g1 = 255;
+                    b1 = 255;
 
                     b.SetPixel(i, j, Color.FromArgb(a, r1, g1, b1));   // Setting new colour for color processed image
                 }
